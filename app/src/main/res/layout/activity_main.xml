@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.raydeveloper.foodeliverray.MainActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Please Log In or Sign Up"
+            android:textSize="18dp"
+            android:layout_marginBottom="24dp">
+        </TextView>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/log_in_text"
+            android:layout_marginBottom="8dp"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/sign_up_text"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

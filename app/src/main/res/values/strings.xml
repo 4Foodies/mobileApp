@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FoodeliverRay</string>
+    <string name="log_in_text">Log In</string>
+    <string name="sign_up_text">Sign Up</string>
+</resources>

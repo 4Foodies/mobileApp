@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raydeveloper.foodeliverray.BusinessSignUp">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Sign-Up"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="28dp"/>
+
+        <EditText
+            android:hint="Store Name"
+            style="@style/edittext_input"/>
+
+        <EditText
+            android:hint="Email Address"
+            style="@style/edittext_input"/>
+
+        <EditText
+            android:hint="Restaurant Address"
+            style="@style/edittext_input"/>
+
+        <EditText
+            style="@style/edittext_input"
+            android:hint="Phone number"/>
+
+        <EditText
+            style="@style/edittext_input"
+            android:hint="Password"/>
+
+        <EditText
+            style="@style/edittext_input"
+            android:hint="Re-enter Password"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Confirm"
+                android:layout_marginRight="10dp"
+                android:textSize="18dp"/>
+
+            <Button
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Clear"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
